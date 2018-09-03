@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32ed32cd-7a48-4d5a-b12b-9e825e6501bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/dev-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/dev-server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -21,13 +21,13 @@
           <entry key="editorconfig" value="1" />
           <entry key="gitignore" value="24" />
           <entry key="js" value="548" />
-          <entry key="json" value="1" />
+          <entry key="json" value="5" />
           <entry key="vue" value="1238" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JSON" value="1" />
+          <entry key="JSON" value="5" />
           <entry key="JavaScript" value="548" />
           <entry key="PLAIN_TEXT" value="25" />
           <entry key="Vue.js" value="1238" />
@@ -87,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="8" />
+            <state relative-caret-position="135">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -119,8 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/dev-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
+            <state relative-caret-position="82">
+              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -178,10 +178,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>mapActions</find>
-      <find>state</find>
-      <find>getAdminInfo</find>
-      <find>adminInfo</find>
       <find>getor</find>
       <find>getOrderList</find>
       <find>count</find>
@@ -208,6 +204,10 @@
       <find>auto</find>
       <find>phantomjs</find>
       <find>phantomjs-prebuilt</find>
+      <find>opn'</find>
+      <find>opn</find>
+      <find>Listening at</find>
+      <find>Listening at</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -231,8 +231,8 @@
         <option value="$PROJECT_DIR$/src/config2/fetch2.js" />
         <option value="$PROJECT_DIR$/src/page/smallTool.vue" />
         <option value="$PROJECT_DIR$/py/py.js" />
-        <option value="$PROJECT_DIR$/build/dev-server.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/dev-server.js" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -252,8 +252,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
-    <option name="y" value="27" />
+    <option name="x" value="-132" />
+    <option name="y" value="28" />
     <option name="width" value="1440" />
     <option name="height" value="794" />
   </component>
@@ -274,16 +274,6 @@
               <item name="vue2-manage" type="b2602c69:ProjectViewProjectNode" />
               <item name="vue2-manage" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue2-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue2-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vue2-manage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vue2-manage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -356,18 +346,18 @@
       <workItem from="1535280303289" duration="65000" />
       <workItem from="1535783254001" duration="2090000" />
       <workItem from="1535853082450" duration="476000" />
-      <workItem from="1535973811529" duration="3987000" />
+      <workItem from="1535973811529" duration="4901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37055000" />
+    <option name="totallyTimeSpent" value="37969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="27" width="1440" height="794" extended-state="0" />
+    <frame x="-132" y="28" width="1440" height="794" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.20014094" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.20014094" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.50206614" side_tool="true" weight="0.24956064" />
@@ -379,7 +369,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32986626" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32986626" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.4982382" visible="true" weight="0.23931624" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4982382" visible="true" weight="0.23931624" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5017618" side_tool="true" weight="0.23931624" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="11" weight="0.32986626" />
@@ -714,13 +704,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="98" column="18" selection-start-line="98" selection-start-column="18" selection-end-line="98" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1470">
@@ -728,10 +711,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="8" />
+        <state relative-caret-position="135">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>

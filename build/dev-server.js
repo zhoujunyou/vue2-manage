@@ -54,7 +54,7 @@ var context = config.dev.context
 
 switch(process.env.NODE_ENV){
     case 'local': var proxypath = 'http://localhost:8001'; break;
-    case 'online': var proxypath = 'http://elm.cangdu.org'; break;
+    case 'online': var proxypath = 'http://60.205.226.152/'; break;
 }
 var options = {
     target: proxypath,
@@ -85,14 +85,14 @@ var readyPromise = new Promise(resolve => {
 })
 
 console.log('> Starting dev server...')
-devMiddleware.waitUntilValid(() => {
-  console.log('> Listening at ' + uri + '\n')
-  // when env is testing, don't need open it
-  if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
-    // opn(uri)
-  }
-  _resolve()
-})
+// devMiddleware.waitUntilValid(() => {
+//   console.log('> Listening at ' + uri + '\n')
+//   // when env is testing, don't need open it
+//   if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
+//     // opn(uri)
+//   }
+//   _resolve()
+// })
 
 var server = app.listen(port)
 
