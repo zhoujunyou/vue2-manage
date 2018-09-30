@@ -36,6 +36,10 @@
 						<template slot="title"><i class="el-icon-warning"></i>说明</template>
 						<el-menu-item index="explain">说明</el-menu-item>
 					</el-submenu>
+                    <el-submenu index="8">
+                        <template slot="title"><i class="el-icon-document"></i>POS日志系统</template>
+                        <el-menu-item index="posLog">日志查询</el-menu-item>
+                    </el-submenu>
 				</el-menu>
 			</el-col>
 			<el-col :span="20" style="height: 100%;overflow: auto;">

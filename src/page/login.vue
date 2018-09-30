@@ -3,7 +3,7 @@
 	  	<transition name="form-fade" mode="in-out">
 	  		<section class="form_contianer" v-show="showLogin">
 		  		<div class="manage_tip">
-		  			<p>elm后台管理系统</p>
+		  			<p>全能POS日志查询系统</p>
 		  		</div>
 		    	<el-form :model="loginForm" :rules="rules" ref="loginForm">
 					<el-form-item prop="username">
@@ -16,9 +16,7 @@
 				    	<el-button type="primary" @click="submitForm('loginForm')" class="submit_btn">登陆</el-button>
 				  	</el-form-item>
 				</el-form>
-				<p class="tip">温馨提示：</p>
-				<p class="tip">未登录过的新用户，自动注册</p>
-				<p class="tip">注册过的用户可凭账号密码登录</p>
+				<p class="tip">OA账号密码登录</p>
 	  		</section>
 	  	</transition>
   	</div>
@@ -26,6 +24,7 @@
 
 <script>
 	import {login, getAdminInfo} from '@/api/getData'
+	import {loginOA} from '@/api/mwApi'
 	import {mapActions, mapState} from 'vuex'
 
 	export default {
@@ -60,7 +59,8 @@
 			async submitForm(formName) {
 				this.$refs[formName].validate(async (valid) => {
 					if (valid) {
-						const res = await login({user_name: this.loginForm.username, password: this.loginForm.password})
+						const res = await loginOA({user_name: this.loginForm.username, password: this.loginForm.password});
+						console.log(res);
 						if (res.status == 1) {
 							this.$message({
 		                        type: 'success',
